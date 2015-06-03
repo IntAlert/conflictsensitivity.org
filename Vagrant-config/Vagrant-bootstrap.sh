@@ -60,7 +60,7 @@ mysql -uroot -prootpass -e "create schema if not exists app"
 mysql -uroot -prootpass --database app < /srv/Vagrant-config/sql/empty.sql
 
 # (re)load crontab
-crontab /srv/Vagrant-config/crons/crontab
+#crontab /srv/Vagrant-config/crons/crontab
 
 # start again for good measure
 sudo apachectl restart
