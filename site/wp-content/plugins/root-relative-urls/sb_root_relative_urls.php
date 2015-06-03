@@ -207,7 +207,8 @@ class MP_WP_Root_Relative_URLS {
                 'content_url',
                 'site_option_siteurl',
                 'network_home_url',
-                'network_site_url'
+                'network_site_url',
+
             ),
             array(
                 'MP_WP_Root_Relative_URLS',
@@ -222,7 +223,8 @@ class MP_WP_Root_Relative_URLS {
                 'page_link',
                 'attachment_link',
                 'post_type_link',
-                'wp_get_attachment_url'
+                'wp_get_attachment_url',
+                'clean_url',
             ),
             array(
                 'MP_WP_Root_Relative_URLS',
