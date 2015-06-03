@@ -1,0 +1,225 @@
+/*
+    Theme Name: Pressly
+    Description: Used to style the TinyMCE editor.
+*/
+
+/* =Theme base
+-------------------------------------------------------------- */
+
+html .mceContentBody {
+	max-width: 720px;
+}
+
+body {
+    font: 16px/1.8 'Bitter';
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+/* =Headings
+-------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #090401;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+    color: #090401;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+/* =Links
+-------------------------------------------------------------- */
+
+a {
+	color: #9a9a9a;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #e7b507;
+}
+
+/* =Tables
+-------------------------------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	width: 100%;
+}
+
+td,
+th {
+    padding: 4px 0;
+	text-align: left;
+}
+
+th {
+	font-weight: 700;
+}
+
+/* =Embedded content
+-------------------------------------------------------------- */
+
+/*
+ * Responsive media.
+ */
+ 
+img,
+embed,
+object,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+@media \0screen {
+    
+    img { 
+        width: auto; /* IE8 */
+    }
+  
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* =WordPress Core Styles
+-------------------------------------------------------------- */
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin: 0 18px 18px 0; 
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin: 0 0 18px 18px;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto 18px auto;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.wp-caption-text {
+    padding-top: 4px;
+    color: #444;
+    text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+    margin-bottom: 0.8075em; 
+    margin-top: 0.8075em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-caption {
+}
+
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}

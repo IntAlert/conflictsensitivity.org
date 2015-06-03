@@ -1,0 +1,4 @@
+MAILTO=""
+* * * * * /vagrant/Vagrant-config/crons/minutely.sh > /dev/null 2>&1
+
+* * * * 0 /vagrant/Vagrant-config/crons/hourly.sh > /dev/null 2>&1
