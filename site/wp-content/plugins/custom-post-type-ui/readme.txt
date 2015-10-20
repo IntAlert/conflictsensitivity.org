@@ -3,8 +3,8 @@ Contributors: williamsba1, tw2113, webdevstudios
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3084056
 Tags: custom post types, CPT, CMS, post, types, post type, cck, taxonomy, tax, custom
 Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 1.0.8
+Tested up to: 4.3
+Stable tag: 1.1.2
 License: GPLv2
 
 Admin UI for creating custom post types and custom taxonomies in WordPress
@@ -25,17 +25,41 @@ Implied credit to:
 
 == Screenshots ==
 
-1. Landing page screen.
-2. Add new post type screen and tab.
-3. Edit post type screen and tab.
-4. Add new taxonomy screen and tab.
-5. Edit taxonomy screen and tab.
-6. Export post types screen and tab.
-7. Export taxonomies screen and tab.
-8. Get code screen and tab.
-9. Help/support screen.
+1. Add new post type screen and tab.
+2. Edit post type screen and tab.
+3. Add new taxonomy screen and tab.
+4. Edit taxonomy screen and tab.
+5. Registered post types and taxonomies from CPTUI
+6. Import/Export screen.
+7. Help/support screen.
+8. Update Information/Donate screen.
 
 == Changelog ==
+
+= 1.1.2 =
+* Change export value to plural label for taxonomies.
+* Properly select a post type or taxonomy after deleting an existing value.
+* Updated screenshots
+* Added target="_blank" attribute to one of the inline help links for Menu position. Thanks @JulieKuehl
+* Fixed potential XSS issue.
+
+= 1.1.1 =
+* Re-add post type and taxonomy select buttons and only display for non-js users.
+
+= 1.1.0 =
+* Simplified UI with regards to clicking amount.
+* Auto selecting of first available post type or taxonomy in Edit tab.
+* Switch to post type or taxonomy upon selection within Edit tab.
+* Return of a list of CPTUI-registered post types and taxonomies.
+* Post type slug update capability.
+* Added function reference 3rd party link to support area.
+* New hooks in edit screen for custom content display on screen.
+* String updates.
+* UI field option for custom "Supports" parameters from other plugins. Example: Yet Another Related Posts Plugin.
+* Updated help/support section with another reference tool.
+* Trim extra spaces potentially left behind in text inputs.
+* Rearranged menu listing slightly to remove duplicate naming.
+* GitHub repo has GitHub Updater (https://github.com/afragen/github-updater) compatible copy of CPTUI version that is available on WordPress.org
 
 = 1.0.8 =
 * Register taxonomies at a higher priority than post types.
@@ -236,6 +260,31 @@ Implied credit to:
 * First beta release
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+* Change export value to plural label for taxonomies.
+* Properly select a post type or taxonomy after deleting an existing value.
+* Updated screenshots
+* Added target="_blank" attribute to one of the inline help links for Menu position. Thanks @JulieKuehl
+* Fixed potential XSS issue.
+
+= 1.1.1 =
+* Re-add post type and taxonomy select buttons and only display for non-js users.
+
+= 1.1.0 =
+* Simplified UI with regards to clicking amount.
+* Auto selecting of first available post type or taxonomy in Edit tab.
+* Switch to post type or taxonomy upon selection within Edit tab.
+* Return of a list of CPTUI-registered post types and taxonomies.
+* Post type slug update capability.
+* Added function reference 3rd party link to support area.
+* New hooks in edit screen for custom content display on screen.
+* String updates.
+* UI field option for custom "Supports" parameters from other plugins. Example: Yet Another Related Posts Plugin.
+* Updated help/support section with another reference tool.
+* Trim extra spaces potentially left behind in text inputs.
+* Rearranged menu listing slightly to remove duplicate naming.
+* GitHub repo has GitHub Updater (https://github.com/afragen/github-updater) compatible copy of CPTUI version that is available on WordPress.org
 
 = 1.0.8 =
 * Register taxonomies at a higher priority than post types.

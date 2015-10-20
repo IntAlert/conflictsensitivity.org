@@ -1429,7 +1429,7 @@ add_action( 'catchbase_before_content', 'catchbase_promotion_headline', 30 );
  */
 function catchbase_footer_content() {
 	//catchbase_flush_transients();
-//	if ( ( !$catchbase_footer_content = get_transient( 'catchbase_footer_content' ) ) ) {
+	if ( ( !$catchbase_footer_content = get_transient( 'catchbase_footer_content' ) ) ) {
 		echo '<!-- refreshing cache -->';
 		
 		$catchbase_content = catchbase_get_content();
@@ -1444,7 +1444,7 @@ function catchbase_footer_content() {
 		</div><!-- #site-generator -->';
 		
     	set_transient( 'catchbase_footer_content', $catchbase_footer_content, 86940 );
-//    }
+    }
 
     echo $catchbase_footer_content;
 }
